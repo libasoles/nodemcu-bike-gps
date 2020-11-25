@@ -1,0 +1,18 @@
+#pragma once
+
+#define SERIAL_PORT             115200
+
+#define RING_LED_PIN            27
+#define RING_NUMBER_OF_LEDS     24
+#define RING_BRIGHTNESS         40
+#define RING_LED_TYPE           NEOPIXEL
+
+#define BLE_DEVICE_NAME         "Bicycle Ring"
+#define BLE_SERVICE_UUID        "00001805-0000-1000-8000-00805f9b34fb"
+#define BLE_IS_ALIVE_UUID       "00002a2a-0000-1000-8000-00805f9b34fa"
+#define BLE_DIRECTION_UUID      "00002a2a-0000-1000-8000-00805f9b34fb"
+#define BLE_SPEED_UUID          "00002a2a-0000-1000-8000-00805f9b34fc"
+#define BLE_MODE_UUID           "00002a2a-0000-1000-8000-00805f9b34fd"
+#define BLE_MAX_SPEED_UUID      "00002a2a-0000-1000-8000-00805f9b34fe"
+#define BLE_COLOR_SCHEMA_UUID   "00002a2a-0000-1000-8000-00805f9b34f1"
+
