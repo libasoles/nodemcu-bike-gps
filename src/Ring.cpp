@@ -1,5 +1,3 @@
-#pragma once
-
 #include "Ring.h"
 #include "Animation.h"
 

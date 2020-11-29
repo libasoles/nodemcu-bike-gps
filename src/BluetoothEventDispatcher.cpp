@@ -1,5 +1,3 @@
-#pragma once
-
 #include "BluetoothEventDispatcher.h"
 #include "utils.h"
 

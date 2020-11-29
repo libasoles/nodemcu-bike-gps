@@ -1,5 +1,3 @@
-#pragma once
-
 #include "BluetoothService.h"
 
 /**
@@ -179,7 +177,7 @@ void Bluetooth::onConnect(BLEClient *theClient) {
     client = theClient;
 }
 
-BLERemoteService *Bluetooth::initServiceConnection() {
+void Bluetooth::initServiceConnection() {
     service = client->getService(serviceUUID);
 
     if (service == nullptr) {

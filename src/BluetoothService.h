@@ -64,7 +64,7 @@ private:
 
     void createClient();
 
-    BLERemoteService *initServiceConnection();
+    void initServiceConnection();
 
     void checkConnection();
 
