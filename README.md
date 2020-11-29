@@ -36,6 +36,8 @@ For other IDEs, like `VSCode` or `CLion`, you can run the `main.cpp` file. You'l
 
 ![usage with cell phone](screenshots/real_speedometer.jpg)
 
+![usage with cell phone](screenshots/arrow-in-the-street.jpg)
+
 ## Class diagram
 
 Approximated design (changed over time)
